@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+}
+#meterContainer {
+  position: relative;
+  width: 80%;
+  height: 30px;
+  margin: 20px auto;
+  background: #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#meterBar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: green;
+  transition: width 0.1s, background 0.1s;
+}
+#dbLabel {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+#ball {
+  margin: 30px auto;
+  width: 50px;
+  height: 50px;
+  background: orange;
+  border-radius: 50%;
+  position: relative;
+  top: 0;
+  transition: top 0.1s;
+}
